@@ -30,6 +30,10 @@ Indicator view is a below dotted view which tells the number of image and curren
 10. In continuation to the above, the view should not overlap any view at the top and bottom if they are added.
 
 
+Note:-  As mentioned this supports ios version 17 and above.
+
+
+
 
 
 
