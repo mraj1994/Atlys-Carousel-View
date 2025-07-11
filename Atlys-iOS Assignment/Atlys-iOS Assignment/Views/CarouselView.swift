@@ -45,7 +45,7 @@ struct CarouselView: View {
             }
             .scrollTargetLayout()
         }
-        .contentMargins(80, for: .automatic)
+        .contentMargins(80, for: .automatic) //content margin should also be handled for larger devices.
         .scrollTargetBehavior(.viewAligned)
         .scrollPosition(id: $scrollId)
     }
